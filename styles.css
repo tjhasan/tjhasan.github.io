@@ -1,9 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  position: relative;
+}
+
+ul {
+  margin-top: 60px;
+  margin-right: 40px;
+}
+
+li {
+  background-color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  background-color: black;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: block;
+}
+
+.active {
+  background-color:lightblue;
+}
+
 .parallax {
     /* The image used */
-    background-image: url("./photos/mohdtanjimhasan.JPG");
+    background-image: url("./photos/cover.jpg");
 
     /* Set a specific height */
-    height: 500px;
+    height: 1000px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -12,16 +47,8 @@
     background-size: cover;
   }
 
-  .parallax2 {
-    /* The image used */
-    background-image: url("./photos/received_849306741813335.jpeg");
-
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+#about, #experiences, #projects, #notoriety, #skills, #contact {
+  height:10000px;
+  background-color:white;
+  font-size:36px;
+}
