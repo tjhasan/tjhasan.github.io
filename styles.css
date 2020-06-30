@@ -40,6 +40,11 @@ a {
 .row{
   padding: 10px;
 }
+
+.profInfo {
+  text-align: center;
+}
+
 .parallax {
     /* The image used */
     background-image: url("./photos/cover.jpg");
@@ -54,11 +59,16 @@ a {
     background-size: cover;
   }
 
-#profile, #projects, #skills {
+#profile, #projects, #skills, #experiences, #notoriety, #contact {
+  padding-right: 450px;
+  padding-left: 450px;
+}
+
+#profile, #projects, #notoriety {
   background-color:white;
 }
 
-#experiences, #notoriety {
+#experiences, #skills{
   background-color:lightblue;
 }
 
