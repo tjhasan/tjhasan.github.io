@@ -20,6 +20,10 @@ li {
   padding-bottom: 10px;
 }
 
+img {
+  max-width: 300px;
+}
+
 a {
   background-color: black;
   margin-top: 10px;
@@ -33,6 +37,9 @@ a {
   background-color:lightblue;
 }
 
+.row{
+  padding: 10px;
+}
 .parallax {
     /* The image used */
     background-image: url("./photos/cover.jpg");
@@ -47,8 +54,18 @@ a {
     background-size: cover;
   }
 
-#about, #experiences, #projects, #notoriety, #skills, #contact {
-  height:10000px;
+#profile, #projects, #skills {
   background-color:white;
-  font-size:36px;
+}
+
+#experiences, #notoriety {
+  background-color:lightblue;
+}
+
+#contact {
+  background-color: darkgray;
+}
+
+.head {
+  text-align: center;
 }
