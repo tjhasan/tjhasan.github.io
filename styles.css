@@ -33,42 +33,24 @@ a {
   display: block;
 }
 
-.active {
-  background-color:lightblue;
-}
-
 .row{
   padding: 10px;
 }
 
-.profInfo {
+.info {
   text-align: center;
 }
 
 .parallax {
-    /* The image used */
     background-image: url("./photos/cover.jpg");
-
-    /* Set a specific height */
     height: 1000px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-#profile, #projects, #skills, #experiences, #notoriety, #contact {
-  padding-right: 450px;
-  padding-left: 450px;
-}
-
-#profile, #projects, #notoriety {
-  background-color:white;
-}
-
-#experiences, #skills{
+  
+#experiences, #skills, .active{
   background-color:lightblue;
 }
 
@@ -76,6 +58,11 @@ a {
   background-color: darkgray;
 }
 
-.head {
-  text-align: center;
+#profile, #projects, #notoriety {
+  background-color:white;
+}
+
+#profile, #projects, #skills, #experiences, #notoriety, #contact {
+  padding-right: 450px;
+  padding-left: 450px;
 }
