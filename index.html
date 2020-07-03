@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles.css">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script type="text/javascript">
-    $(document).on('scroll', function () {
+    /*$(document).on('scroll', function () {
       if ($("a").hasClass("active")) {
         $("a.active").parent().addClass('active').siblings().removeClass('active');
       }
@@ -19,7 +19,10 @@
         $('a').last().addClass('active').siblings().removeClass('active');
         $('a').last().parent().addClass('active').siblings().removeClass('active');
       }
-    });
+      if ($('li').hasClass('active')) {
+        $('li.active').siblings().removeClass('active');
+      }
+    });*/
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
@@ -27,18 +30,33 @@
 </head>
 
 <body data-spy="scroll" data-target=".nav" data-offset="10">
-    <div class="parallax">
-      <div class="centered">Work In Progress</div>
-    </div>
+  <div class="parallax">
+    <div class="centered">Work In Progress</div>
+    <a class="pointer" href="#profile"
+      style="margin-bottom: -20px;margin-top: 10px;padding-left: 36.5px;padding-right: 36.5px;padding-top: 25px;padding-bottom: 25px;left: 1720px;margin-right: 5px;top: 861px;">
+      Testing</a>
+  </div>
 
   <nav class="nav float-right sticky-top flex-column">
     <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link active" href="#profile">About</a></li>
-      <li class="nav-item"><a class="nav-link" href="#experiences">Experiences</a></li>
-      <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-      <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-      <li class="nav-item"><a class="nav-link" href="#notoriety">Notoriety</a></li>
-      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" href="#profile"
+          style="margin-bottom: -20px;margin-top: 10px;padding-left: 20px;padding-right: 20px;padding-top: 25px;padding-bottom: 25px;">About</a>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#experiences"
+          style="margin-bottom: -20px;margin-top: 10px;padding-left: 20px;padding-right: 20px;padding-top: 25px;padding-bottom: 25px;">Experiences</a>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#projects"
+          style="margin-bottom: -20px;margin-top: 10px;padding-left: 20px;padding-right: 20px;padding-top: 25px;padding-bottom: 25px;">Projects</a>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#skills"
+          style="margin-bottom: -20px;margin-top: 10px;padding-left: 20px;padding-right: 20px;padding-top: 25px;padding-bottom: 25px;">Skills</a>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#notoriety"
+          style="margin-bottom: -20px;margin-top: 10px;padding-left: 20px;padding-right: 20px;padding-top: 25px;padding-bottom: 25px;">Notoriety</a>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#contact"
+          style="margin-bottom: -20px;margin-top: 10px;padding-left: 20px;padding-right: 20px;padding-top: 25px;padding-bottom: 25px;">Contact</a>
+      </li>
     </ul>
   </nav>
   <div id="profile" class="container-fluid">
@@ -350,37 +368,206 @@
     <h3>Programming</h3>
     <div class="row">
       <div class="col-6">
-        <h4>Programming skills go here</h4>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#CExp" aria-expanded="true" aria-controls="CExp">
+            C++
+          </a>
+        <div class="collapse" id="CExp">
+          C++ exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#JavaExp" aria-expanded="false" aria-controls="JavaExp">
+            Java
+          </a>
+        <div class="collapse" id="JavaExp">
+          Java exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#JavaScriptExp" aria-expanded="false"
+            aria-controls="JavaScriptExp">
+            JavaScript
+          </a>
+        <div class="collapse" id="JavaScriptExp">
+          JavaScript exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#OOPExp" aria-expanded="false" aria-controls="OOPExp">
+            Object Oriented Programming
+          </a>
+        <div class="collapse" id="OOPExp">
+          Object Oriented Programming exp goes here
+        </div>
+        </p>
       </div>
       <div class="col-6">
-        <h4>Programming skills go here</h4>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#PythonExp" aria-expanded="false" aria-controls="PythonExp">
+            Python
+          </a>
+        <div class="collapse" id="PythonExp">
+          Python exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#HTMLExp" aria-expanded="false" aria-controls="HTMLExp">
+            HTML
+          </a>
+        <div class="collapse" id="HTMLExp">
+          HTML exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#CSSExp" aria-expanded="false" aria-controls="CSSExp">
+            CSS
+          </a>
+        <div class="collapse" id="CSSExp">
+          CSS exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#SQLExp" aria-expanded="false" aria-controls="SQLExp">
+            SQL
+          </a>
+        <div class="collapse" id="SQLExp">
+          SQL exp goes here
+        </div>
+        </p>
       </div>
     </div>
     <h3>Tools</h3>
     <div class="row">
       <div class="col-6">
-        <h4>Tool skills go here</h4>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#UnityExp" aria-expanded="false" aria-controls="UnityExp">
+            Unity
+          </a>
+        <div class="collapse" id="UnityExp">
+          Unity exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#GitExp" aria-expanded="false" aria-controls="GitExp">
+            Git/GitFlow
+          </a>
+        <div class="collapse" id="GitExp">
+          Git/GitFlow exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#UnixExp" aria-expanded="false" aria-controls="UnixExp">
+            Unix/Linux
+          </a>
+        <div class="collapse" id="UnixExp">
+          Unix/Linux exp goes here
+        </div>
+        </p>
       </div>
       <div class="col-6">
-        <h4>Tool skills go here</h4>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#CLIExp" aria-expanded="false" aria-controls="CLIExp">
+            Command Line Interface
+          </a>
+        <div class="collapse" id="CLIExp">
+          Command Line Interface exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#MSOExp" aria-expanded="false" aria-controls="MSOExp">
+            MS Office
+          </a>
+        <div class="collapse" id="MSOExp">
+          MS Office exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#DjangoExp" aria-expanded="false" aria-controls="DjangoExp">
+            Django
+          </a>
+        <div class="collapse" id="DjangoExp">
+          Django exp goes here
+        </div>
+        </p>
       </div>
     </div>
     <h3>Language</h3>
     <div class="row">
       <div class="col-6">
-        <h4>Verbal Language skills go here</h4>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#BanglaExp" aria-expanded="false" aria-controls="BanglaExp">
+            Bangla
+          </a>
+        <div class="collapse" id="BanglaExp">
+          Bangla exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#EnglishExp" aria-expanded="false" aria-controls="EnglishExp">
+            English
+          </a>
+        <div class="collapse" id="EnglishExp">
+          English exp goes here
+        </div>
+        </p>
       </div>
       <div class="col-6">
-        <h4>Verbal Language skills go here</h4>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#JapaneseExp" aria-expanded="false" aria-controls="JapaneseExp">
+            Japanese
+          </a>
+        <div class="collapse" id="JapaneseExp">
+          Japanese exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#ArabicExp" aria-expanded="false" aria-controls="ArabicExp">
+            Arabic
+          </a>
+        <div class="collapse" id="ArabicExp">
+          Arabic exp goes here
+        </div>
+        </p>
       </div>
     </div>
     <h3>Interests</h3>
     <div class="row">
       <div class="col-6">
-        <h4>Interests go here</h4>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#RWExp" aria-expanded="false" aria-controls="RWExp">
+            Reading/Writing
+          </a>
+        <div class="collapse" id="RWExp">
+          Reading/Writing exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#TravelExp" aria-expanded="false" aria-controls="TravelExp">
+            Traveling
+          </a>
+        <div class="collapse" id="TravelExp">
+          Traveling exp goes here
+        </div>
+        </p>
       </div>
       <div class="col-6">
-        <h4>Interests go here</h4>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#GamesExp" aria-expanded="false" aria-controls="GamesExp">
+            Games
+          </a>
+        <div class="collapse" id="GamesExp">
+          Games exp goes here
+        </div>
+        </p>
+        <p>
+          <a class="btn" data-toggle="collapse" href="#ArtExp" aria-expanded="false" aria-controls="ArtExp">
+            Art
+          </a>
+        <div class="collapse" id="ArtExp">
+          Art exp goes here
+        </div>
+        </p>
       </div>
     </div>
   </div>

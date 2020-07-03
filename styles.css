@@ -13,11 +13,11 @@ ul {
 }
 
 li {
-  background-color: black;
+  background-color: transparent;
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 img {
@@ -26,15 +26,26 @@ img {
 
 a {
   background-color: black;
-  margin-top: 10px;
   margin-left: 5px;
   margin-right: 5px;
   text-align: center;
-  display: block;
 }
 
 .row{
   padding: 10px;
+}
+
+.pointer {
+  position: absolute;
+}
+
+.btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
 
 .info {
@@ -43,7 +54,7 @@ a {
 
 .parallax {
   background-image: url("./photos/cover.jpg");
-  height: 1000px;
+  height: 945px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
