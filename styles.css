@@ -24,6 +24,12 @@ img {
   max-width: 300px;
 }
 
+a.diff {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+
 a {
   background-color: black;
   margin-left: 5px;
@@ -33,10 +39,6 @@ a {
 
 .row{
   padding: 10px;
-}
-
-.pointer {
-  position: absolute;
 }
 
 .btn {
@@ -53,7 +55,7 @@ a {
 }
 
 .parallax {
-  background-image: url("./photos/cover.jpg");
+  background-image: url("./photos/cover.png");
   height: 945px;
   background-attachment: fixed;
   background-position: center;
@@ -70,6 +72,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 54px;
+  z-index: 5;
 }
 
 #experiences, #skills, .active{
@@ -78,6 +81,7 @@ a {
 
 #contact {
   background-color: darkgray;
+  padding-bottom: 300px;
 }
 
 #profile, #projects, #notoriety {
