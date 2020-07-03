@@ -5,11 +5,22 @@ html {
 body {
   margin: 0px;
   position: relative;
+  font-size: 15px;
+  line-height: 1.64;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 ul {
   margin-top: 60px;
   margin-right: 40px;
+}
+
+h2 {
+  color: darkcyan;
+}
+
+p {
+  color: slategray;
 }
 
 li {
@@ -31,10 +42,16 @@ a.diff {
 }
 
 a {
-  background-color: black;
+  background-color: dimgray;
   margin-left: 5px;
   margin-right: 5px;
   text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.active {
+  background-color: darkcyan;
 }
 
 .row{
@@ -75,7 +92,7 @@ a {
   z-index: 5;
 }
 
-#experiences, #skills, .active{
+#experiences, #skills {
   background-color:lightblue;
 }
 
