@@ -7,23 +7,6 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script type="text/javascript">
-    /*$(document).on('scroll', function () {
-      if ($("a").hasClass("active")) {
-        $("a.active").parent().addClass('active').siblings().removeClass('active');
-      }
-      else {
-        $('a').first().addClass('active').siblings().removeClass('active');
-      }
-      if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-        $('a').last().addClass('active').siblings().removeClass('active');
-        $('a').last().parent().addClass('active').siblings().removeClass('active');
-      }
-      if ($('li').hasClass('active')) {
-        $('li.active').siblings().removeClass('active');
-      }
-    });*/
-  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
@@ -32,8 +15,13 @@
 <body data-spy="scroll" data-target=".nav" data-offset="10">
   <div class="parallax">
     <div class="centered"> 
-      <h1>Work In Progress</h1>
-      <a class="diff" href="#profile"><h3>More about me</h3></a>
+      <h1>Mohd Tanjim Hasan</h1>
+      <h5>Interactive Resume</h5>
+      <h6>Work In Progress</h6>
+      <a class="diff" href="#profile">
+        <h3>About Me</h3>
+        <h3 id="arrow">&#129055;</h3>
+      </a>
     </div>
   </div>
 
@@ -59,10 +47,12 @@
       </li>
     </ul>
   </nav>
+
   <div id="profile" class="container-fluid">
     <div class="info">
       <h2>Profile</h2>
       <p>Quote Here</p>
+      <hr>
     </div>
     <div class="row info">
       <div class="col-md">
@@ -81,8 +71,9 @@
     <div class="info">
       <h2>Experiences</h2>
       <p>Quote Here</p>
+      <hr>
     </div>
-    <h3>Education</h3>
+    <h3 class="beg">Education</h3>
     <div class="row">
       <div class="col-md-4">
         <h4>School Here</h4>
@@ -111,7 +102,8 @@
           libero. </p>
       </div>
     </div>
-    <h3>Careers</h3>
+    <hr>
+    <h3 class="beg">Careers</h3>
     <div class="row">
       <div class="col-md-4">
         <h4>Company</h4>
@@ -154,7 +146,7 @@
           libero. </p>
       </div>
     </div>
-    <h3>Leadership</h3>
+    <h3 class="beg">Leadership</h3>
     <div class="row">
       <div class="col-md-4">
         <h4>Organization Here</h4>
@@ -217,6 +209,7 @@
     <div class="info">
       <h2>Projects</h2>
       <p>Quote Here</p>
+      <hr>
     </div>
     <div class="row">
       <div class="col-md-4">
@@ -364,8 +357,9 @@
     <div class="info">
       <h2>Skills</h2>
       <p>Quote Here</p>
+      <hr>
     </div>
-    <h3>Programming</h3>
+    <h3 class="beg">Programming</h3>
     <div class="row">
       <div class="col-6">
         <p>
@@ -437,7 +431,8 @@
         </p>
       </div>
     </div>
-    <h3>Tools</h3>
+    <hr>
+    <h3 class="beg">Tools</h3>
     <div class="row">
       <div class="col-6">
         <p>
@@ -492,7 +487,8 @@
         </p>
       </div>
     </div>
-    <h3>Language</h3>
+    <hr>
+    <h3 class="beg">Language</h3>
     <div class="row">
       <div class="col-6">
         <p>
@@ -531,7 +527,8 @@
         </p>
       </div>
     </div>
-    <h3>Interests</h3>
+    <hr>
+    <h3 class="beg">Interests</h3>
     <div class="row">
       <div class="col-6">
         <p>
@@ -576,9 +573,10 @@
     <div class="info">
       <h2>Notoriety</h2>
       <p>Quote Here</p>
+      <hr>
     </div>
     <div>
-      <h3>Awards</h3>
+      <h3 class="beg">Awards</h3>
       <div class="row">
         <div class="col">
           <h4>Award Title</h4>
@@ -597,7 +595,8 @@
           <p>Award Description</p>
         </div>
       </div>
-      <h3>Media Presence</h3>
+      <hr>
+      <h3 class="beg">Media Presence</h3>
       <div class="row">
         <div class="col-md-4">
           <img src="./photos/media.jpg">
