@@ -18,6 +18,17 @@ html {
   scroll-behavior: smooth;
 }
 
+span {
+  -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
 body {
   margin: 0px;
   position: relative;
