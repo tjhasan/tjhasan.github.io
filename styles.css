@@ -4,6 +4,17 @@
   100% {padding-top: 20px;}
 }
 
+@media only screen and (max-width: 1200px) {
+  #profile, #projects, #skills, #experiences, #notoriety, #contact {
+    padding-left:5% !important; 
+    padding-right:5% !important;
+  }
+
+  .nav {
+    display: none !important;
+  }
+}
+
 #arrow {
   animation-name: arrow;
   animation-duration: 1.2s;
@@ -12,6 +23,10 @@
   position: absolute;
   left: 48.3%;
   top: 70%;
+}
+
+.col-md, .col-md-4, .col-md-8 {
+  min-width: 300px;
 }
 
 html {
