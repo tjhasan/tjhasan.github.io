@@ -85,6 +85,7 @@ h5 {
 
 p {
   color: #727878;
+  min-width: 600px;
 }
 
 li {
