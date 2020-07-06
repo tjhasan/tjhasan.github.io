@@ -10,8 +10,18 @@
     padding-right:5% !important;
   }
 
-  .nav {
+  .nav, #arrow {
     display: none !important;
+  }
+
+  nav.navbar {
+    display: block !important;
+    background-color: dimgray;
+  }
+
+  nav button {
+    color: white;
+
   }
 }
 
@@ -22,7 +32,7 @@
   animation-iteration-count: infinite;
   position: absolute;
   left: 48.3%;
-  top: 70%;
+  top: 85%;
 }
 
 .col-md, .col-md-4, .col-md-8 {
@@ -85,7 +95,11 @@ h5 {
 
 p {
   color: #727878;
-  min-width: 600px;
+  min-width: 450px;
+}
+
+li.top {
+  padding: 0;
 }
 
 li {
@@ -107,7 +121,7 @@ a.diff {
   left: 50%;
 }
 
-a {
+li a {
   background-color: dimgray;
   margin-left: 5px;
   margin-right: 5px;
