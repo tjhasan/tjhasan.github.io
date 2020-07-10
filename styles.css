@@ -88,6 +88,10 @@ h1 {
   font-size: 4.4rem;
 }
 
+svg {
+  font-size: 30px;
+}
+
 h2 {
   font-size: 50px;
   padding-top: 40px;
