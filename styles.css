@@ -4,7 +4,7 @@
   100% {padding-top: 20px;}
 }
 
-/*@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   #profile, #projects, #skills, #experiences, #notoriety, #contact {
     padding-left:5% !important; 
     padding-right:5% !important;
@@ -18,7 +18,7 @@
     display: block !important;
     background-color: dimgray;
   }
-}*/
+}
 
 h2 + p {
   font-size: 20px;
