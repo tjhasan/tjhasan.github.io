@@ -27,11 +27,12 @@ h2 + p {
 #arrow {
   animation-name: arrow;
   animation-duration: 1.2s;
-  animation-timing-function: ease;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   position: absolute;
-  left: 48.3%;
+  left: 45%;
   top: 85%;
+  font-size: 70px;
 }
 
 #profilepic {
