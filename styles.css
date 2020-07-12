@@ -222,7 +222,12 @@ li a {
   background-color: #D9D5D2;
 }
 
-#profile, #projects, #skills, #experiences, #notoriety, #contact {
+#contact {
+  padding: 0% 16%;
+  padding-bottom: 34%;
+}
+
+#profile, #projects, #skills, #experiences, #notoriety{
   /*padding-right: 450px;
   padding-left: 450px;*/
   padding: 0% 16%;
