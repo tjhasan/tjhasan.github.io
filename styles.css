@@ -35,9 +35,9 @@ h2 + p {
   font-size: 70px;
 }
 
-#profilepic {
+#profilepic, img{
   border-radius: 15px;
-  border-width: 10px;
+  border-width: 3px;
   border-style: solid;
   border-color: #93C2BC;
 }
@@ -46,8 +46,6 @@ nav button {
   color: white;
 
 }
-
-
 
 .col-md, .col-md-4, .col-md-8 {
   min-width: 300px;
@@ -228,7 +226,5 @@ li a {
 }
 
 #profile, #projects, #skills, #experiences, #notoriety{
-  /*padding-right: 450px;
-  padding-left: 450px;*/
   padding: 0% 16%;
 }
