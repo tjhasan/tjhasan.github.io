@@ -20,6 +20,46 @@
   }
 }
 
+.gdscript {
+  background-color: darkslategray !important;
+}
+
+.python {
+  background-color: darkblue !important;
+}
+
+.assembly {
+  background-color: darkred !important;
+}
+
+.javascript {
+  background-color: darksalmon !important;
+}
+
+.shell {
+  background-color: darkgreen !important;
+}
+
+.progress {
+  height: 5%;
+}
+
+.html {
+  background-color: red !important;
+}
+
+.css {
+  background-color: purple !important;
+}
+
+.misc {
+  background-color: grey !important;
+}
+
+.csharp {
+  background-color: green !important;
+}
+
 h2 + p {
   font-size: 20px;
 }
