@@ -272,9 +272,10 @@ li a {
 }
 
 #contact {
+  padding: 0% 16%;
   padding-bottom: 34%;
 }
 
-#profile, #projects, #skills, #experiences, #notoriety, #contact{
+#profile, #projects, #skills, #experiences, #notoriety{
   padding: 0% 16%;
 }
