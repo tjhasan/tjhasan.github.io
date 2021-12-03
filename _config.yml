@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Mohd Tanjim Hasan"
 description              : "This my interactive CV. Click through the tabs above for more information on each category. Additionally, click on any of the projects i've worked on to get a deeper explanation of my work and the skills I learned in the process!"
 url                      : "https://tjhasan.github.io"
-baseurl                  : "/home"
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/tjhasan"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
