@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Mohd Tanjim Hasan"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/temp.jpg"
   bio              : "[WIP]"
   location         : "Somewhere"
   email            : "[hidden]"
