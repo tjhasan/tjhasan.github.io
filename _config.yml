@@ -110,7 +110,7 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://tjhasan.github.io"
+      url: "https://github.com/tjhasan"
     - label: "Resume"
       icon: "far fa-fw fa-file-pdf"
       url: "/assets/files/Mohd_Tanjim_Hasan_Resume.pdf"
@@ -126,7 +126,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://tjhasan.github.io"
+      url: "https://github.com/tjhasan"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
