@@ -5,7 +5,7 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Sample Posts"
-    url: https://tjhasan.github.io/docs/404.md
+    url: /pages/test.md
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
